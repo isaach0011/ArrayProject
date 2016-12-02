@@ -1,20 +1,23 @@
-package array.view;
+package hipster.view;
+
+import hipster.controller.HipsterAppController;
 
 import java.awt.Color;
+
 import javax.swing.*;
-import array.controller.ArrayController;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class HipsterPanel extends JPanel
 {
-	private ArrayController baseController;
+	private HipsterAppController baseController;
 	private JButton myButton;
 	private JComboBox dropDown;
 	private JLabel wordsLabel;
 	private SpringLayout baseLayout;
 	
-	public HipsterPanel(ArrayController baseController)
+	public HipsterPanel(HipsterAppController baseController)
 	{
 		super();
 		this.baseController = baseController;

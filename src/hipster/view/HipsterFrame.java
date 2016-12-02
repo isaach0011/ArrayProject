@@ -1,16 +1,18 @@
-package array.view;
+package hipster.view;
+
+import hipster.controller.HipsterAppController;
 
 import javax.swing.JFrame;
-import array.controller.ArrayController;
+
 import java.awt.Dimension;
 
 public class HipsterFrame extends JFrame
 {
 
-	private ArrayController baseController;
+	private HipsterAppController baseController;
 	private HipsterPanel basePanel;
 	
-	public HipsterFrame(ArrayController baseController)
+	public HipsterFrame(HipsterAppController baseController)
 	{
 		super();
 		this.baseController = baseController;

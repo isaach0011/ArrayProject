@@ -1,4 +1,4 @@
-package array.model;
+package hipster.model;
 
 public class Hipster
 {

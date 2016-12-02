@@ -1,9 +1,9 @@
-package array.controller;
+package hipster.controller;
 
-import array.model.Hipster;
-import array.view.HipsterFrame;
+import hipster.model.Hipster;
+import hipster.view.HipsterFrame;
 
-public class ArrayController
+public class HipsterAppController
 {
 	private HipsterFrame appFrame;
 	private int [] numbers;
@@ -11,7 +11,7 @@ public class ArrayController
 	private Hipster [] hipsters;
 	
 	
-	public ArrayController()
+	public HipsterAppController()
 	{
 		thirdLevelHipster();
 		
